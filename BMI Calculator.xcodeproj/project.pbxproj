@@ -37,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182A2EFB25DA9FB8006F57FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1843A3AF25D2525D00408C06 /* Main.storyboard */,
+				1843A3B425D2525E00408C06 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1843A39D25D2525D00408C06 = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +68,8 @@
 				1843A3A925D2525D00408C06 /* AppDelegate.swift */,
 				1843A3AB25D2525D00408C06 /* SceneDelegate.swift */,
 				1843A3AD25D2525D00408C06 /* ViewController.swift */,
-				1843A3AF25D2525D00408C06 /* Main.storyboard */,
+				182A2EFB25DA9FB8006F57FE /* View */,
 				1843A3B225D2525E00408C06 /* Assets.xcassets */,
-				1843A3B425D2525E00408C06 /* LaunchScreen.storyboard */,
 				1843A3B725D2525E00408C06 /* Info.plist */,
 			);
 			path = "BMI Calculator";
