@@ -13,6 +13,7 @@
 		1843A3B125D2525D00408C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1843A3AF25D2525D00408C06 /* Main.storyboard */; };
 		1843A3B325D2525E00408C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1843A3B225D2525E00408C06 /* Assets.xcassets */; };
 		1843A3B625D2525E00408C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1843A3B425D2525E00408C06 /* LaunchScreen.storyboard */; };
+		1854013625E0D25D008CF4A5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854013525E0D25D008CF4A5 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1843A3B225D2525E00408C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1843A3B525D2525E00408C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1843A3B725D2525E00408C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1854013525E0D25D008CF4A5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				182A2EFB25DA9FB8006F57FE /* View */,
 				1843A3B225D2525E00408C06 /* Assets.xcassets */,
 				1843A3B725D2525E00408C06 /* Info.plist */,
+				1854013525E0D25D008CF4A5 /* ResultViewController.swift */,
 			);
 			path = "BMI Calculator";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				1843A3AE25D2525D00408C06 /* CalculateViewController.swift in Sources */,
 				1843A3AA25D2525D00408C06 /* AppDelegate.swift in Sources */,
 				1843A3AC25D2525D00408C06 /* SceneDelegate.swift in Sources */,
+				1854013625E0D25D008CF4A5 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
