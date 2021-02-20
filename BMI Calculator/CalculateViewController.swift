@@ -5,7 +5,6 @@
 //  Created by Shantanu on 09/02/21.
 //
 
-
 import UIKit
 
 class CalculateViewController: UIViewController {
@@ -56,17 +55,17 @@ class CalculateViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "goToResult" {
-//            let destinationVC = segue.destination as! ResultViewController
-//
-////            destinationVC.bmiValue = bmiValue
-//            // Store value of getBMIValue() from model - calculatorBrain & store it to bmiValue - of Result screen.
+        if segue.identifier == "goToResult" {
+            let destinationVC = segue.destination as! ResultViewController
+            
+//            destinationVC.bmiValue = bmiValue
+            // Store value of getBMIValue() from model - calculatorBrain & store it to bmiValue - of Result screen.
 //            destinationVC.bmiValue = calculatorBrain.getBMIValue()
-//            // Store value of getAdvice() from model - calculatorBrain & store it to advice - of Result screen.
+           //  Store value of getAdvice() from model - calculatorBrain & store it to advice - of Result screen.
 //            destinationVC.advice = calculatorBrain.getAdvice()
-//            // Store value of getColor() from model - calculatorBrain & store it to color - of Result screen.
+            // Store value of getColor() from model - calculatorBrain & store it to color - of Result screen.
 //            destinationVC.color = calculatorBrain.getColor()
-//
-//        }
+
+        }
     }
 }
