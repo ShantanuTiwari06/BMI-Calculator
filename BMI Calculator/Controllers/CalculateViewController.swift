@@ -12,7 +12,7 @@ class CalculateViewController: UIViewController {
 //    var bmiValue = "0.0"
     
     // store model-CalcBrain to var of it .
-//    var calculatorBrain = CalculatorBrain()
+    var calculatorBrain = CalculatorBrain()
     
     @IBOutlet weak var heightLabel: UILabel!
     @IBOutlet weak var weightLabel: UILabel!
@@ -42,7 +42,7 @@ class CalculateViewController: UIViewController {
 //        bmiValue = String(format: "%.1f", bmi)
 //
 //        call the func - calculateBMI(h,w) from model - calculatorBrain .
-//        calculatorBrain.calculateBMI(h: height, w: weight)
+        calculatorBrain.calculateBMI(h: height, w: weight)
         
         // Go to result screen .
 //        self.performSegue(withIdentifier: "goToResult", sender: self)
@@ -60,11 +60,11 @@ class CalculateViewController: UIViewController {
             
 //            destinationVC.bmiValue = bmiValue
             // Store value of getBMIValue() from model - calculatorBrain & store it to bmiValue - of Result screen.
-//            destinationVC.bmiValue = calculatorBrain.getBMIValue()
-           //  Store value of getAdvice() from model - calculatorBrain & store it to advice - of Result screen.
-//            destinationVC.advice = calculatorBrain.getAdvice()
+            destinationVC.bmiValue = calculatorBrain.getBMIValue()
+            // Store value of getAdvice() from model - calculatorBrain & store it to advice - of Result screen.
+            destinationVC.advice = calculatorBrain.getAdvice()
             // Store value of getColor() from model - calculatorBrain & store it to color - of Result screen.
-//            destinationVC.color = calculatorBrain.getColor()
+            destinationVC.color = calculatorBrain.getColor()
 
         }
     }
