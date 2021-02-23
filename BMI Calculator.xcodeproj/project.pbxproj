@@ -75,8 +75,7 @@
 				1843A3AB25D2525D00408C06 /* SceneDelegate.swift */,
 				1870F12525E2AA2300C5F001 /* Model */,
 				182A2EFB25DA9FB8006F57FE /* View */,
-				1843A3AD25D2525D00408C06 /* CalculateViewController.swift */,
-				1854013525E0D25D008CF4A5 /* ResultViewController.swift */,
+				188C48AC25E56A5E009DF22E /* Controllers */,
 				1843A3B225D2525E00408C06 /* Assets.xcassets */,
 				1843A3B725D2525E00408C06 /* Info.plist */,
 			);
@@ -90,6 +89,15 @@
 				1870F12225E2AA0600C5F001 /* BMI.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		188C48AC25E56A5E009DF22E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1843A3AD25D2525D00408C06 /* CalculateViewController.swift */,
+				1854013525E0D25D008CF4A5 /* ResultViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
